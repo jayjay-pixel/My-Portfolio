@@ -1,0 +1,175 @@
+/* Basic Reset and Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #111;
+  }
+  
+  /* Header */
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #1e90ff; /* Blue */
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #1e1e1e;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ff0000; /* Red */
+  }
+  
+  /* Sections */
+  section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-left: 5px solid #1e90ff; /* Blue border */
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    color: #1e90ff;
+    margin-bottom: 15px;
+  }
+  
+  /* Resume image */
+  #resume img {
+    border-radius: 8px;
+    max-width: 100%;
+    margin-top: 15px;
+  }
+  
+  /* Form styling */
+  form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  form button {
+    background-color: #1e90ff; /* Blue */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #ff0000; /* Red on hover */
+  }
+  
+  /* Social media links */
+  .socials {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .socials a {
+    color: #1e90ff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .socials a:hover {
+    color: #ff0000;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+
+  /* Mobile Styles */
+@media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    nav a {
+      margin: 0 8px;
+      font-size: 0.9rem;
+    }
+  
+    section {
+      padding: 15px;
+      margin: 20px;
+    }
+  
+    form input, form textarea {
+      padding: 10px;
+    }
+  
+    form button {
+      width: 100%;
+    }
+  
+    footer {
+      font-size: 0.8rem;
+    }
+  }
+  
+  /* For very small screens (mobile phones in portrait mode) */
+  @media (max-width: 480px) {
+    nav a {
+      font-size: 0.8rem;
+    }
+  
+    header h1 {
+      font-size: 1.8rem;
+    }
+  
+    header p {
+      font-size: 0.9rem;
+    }
+  
+    section h2 {
+      font-size: 1.2rem;
+    }
+  }
+  
+  
